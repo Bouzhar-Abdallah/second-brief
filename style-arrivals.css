@@ -31,6 +31,15 @@ a{
     box-shadow: var(--shadow);
     height: 50px;
 }
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--w-orange);
+    box-shadow: var(--shadow);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
 
 .logo{
     background-image: url(./logo/Orange.png);
@@ -68,6 +77,15 @@ li:hover{
 
    
 /***************************/
+p{
+    color: var(--dark-gray);
+    font-style: unset;
+    opacity: 80%;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 150%;
+}
 body{
     background-color: var(--w-orange);
     font-family: roboto;
@@ -76,8 +94,8 @@ body{
     background-color: var(--w-gray);
     /* padding: 10px; */
     position: relative;
-    max-width: 280px;
-    min-width: 220px;
+   /*  max-width: 280px;
+    min-width: 220px; */
     display: flex;
     place-content: center;
     /* max-width: 25vh; */
@@ -132,8 +150,10 @@ h3{
 section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    
     margin: 5% 5%;
     gap: min(10%,10px);  
+
 }
 
 :is(.content:hover) .addcart{
@@ -195,4 +215,53 @@ figure{
 
 figure:hover{
     color: var(--dark-orange);
+}
+
+
+/****** Pseudo Footer*****/
+
+.pseudo-footer{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding: 2vh 0;
+
+
+}
+.pseudo-footer h3{
+    margin-bottom: 3vh;
+    font-size:18px;
+    cursor: pointer;
+    color: var(--dark-gray);
+    
+}
+.pseudo-footer h5{
+    line-height: 170%;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--dark-gray);
+    opacity: 80%;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px 20px 20px;
+    margin-top: 50px;
+    background-color: var(--w-gray);
+
+}
+
+.clients{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 20px  ;
+}
+
+ 
+.clients figure img{
+    width: 15vw;
 }
