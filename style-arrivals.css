@@ -187,3 +187,12 @@ section{
         max-width: none;
     }
 }
+
+figure{
+    padding: 5px;
+    color: var(--w-gray);
+}
+
+figure:hover{
+    color: var(--dark-orange);
+}
