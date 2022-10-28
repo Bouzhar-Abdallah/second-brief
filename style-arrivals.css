@@ -82,7 +82,7 @@ a{
 }
 .mini-menu{
     display: flex;
-    /* display: none; */
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
@@ -103,10 +103,10 @@ li:hover{
 /*************** menu mobile***************/
 
 
-.titles-mobile{
+/* .titles-mobile{
     display: none;
 }
-
+ */
 
 /*************** menu media***************/
 
@@ -274,7 +274,7 @@ section{
     }
 }
 
-figure{
+.section-wrapper figure{
     padding: 5px;
     color: var(--w-gray);
 }
