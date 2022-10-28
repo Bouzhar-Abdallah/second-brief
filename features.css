@@ -129,7 +129,8 @@ li:hover{
     }
     .titles-mobile{
         display: none;
-        position: absolute;
+        position: fixed;
+        box-shadow: var(--shadow);
         z-index: 5;
         background-color: var(--w-orange);
         padding: 10px;
@@ -139,7 +140,9 @@ li:hover{
         padding: 10px 0;
         font-size: 12px;
     }
-    
+    .icons{
+        gap: 8px;
+    }
 }
 
 /***************************/

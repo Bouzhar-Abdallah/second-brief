@@ -82,6 +82,7 @@ a{
 .mini-menu{
     display: flex;
     display: none;
+    position: sticky;
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
@@ -122,17 +123,21 @@ li:hover{
     }
     .titles-mobile{
         display: none;
-        position: absolute;
+        position: fixed;
+        box-shadow: var(--shadow);
         z-index: 5;
         background-color: var(--w-orange);
         padding: 10px;
         width: fit-content;
+
     }
     .titles-mobile li{
         padding: 10px 0;
         font-size: 12px;
     }
-    
+    .icons{
+        gap: 8px;
+    }
 }
 
 /***************************/
