@@ -127,6 +127,8 @@ li:hover{
     .icons{
         gap: 8px;
     }
+    
+   
 }
 
 
@@ -392,7 +394,7 @@ best-selling-container img{
    
    margin: 0;
    left: 0;
-   /* animation: 20s slider-animation infinite; */
+   animation: 20s slider-animation infinite;
 }
 .slider-section .slider{
     display: inline-block;
@@ -556,3 +558,41 @@ footer{
 }
 
  /***** navbar media*****/
+ @media screen and (max-width: 500px) {
+    .slider-top{
+        flex-direction: column-reverse;
+    }
+    .slider .info {
+       width: 100%;
+    }
+    .slider h4{
+
+        line-height: 2rem;
+
+     }
+     .slider h2{
+        font-weight:400;
+        font-size: 25px;
+     }
+     .slider .price h5{
+        font-size: 20px;
+  
+     }
+     
+     .slider .price .price-line{
+        height: 2px;
+        width: 30px;
+     }
+     .slider .buttons button{
+ 
+        font-size: 12px;
+        
+     }
+    .slider-top{
+        align-items: center;
+    }
+    .buttons{
+        justify-content: center;
+    }
+
+}
