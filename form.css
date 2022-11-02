@@ -40,10 +40,12 @@
     z-index: 10;
     height: 100%;
     width: 100vw;
-    opacity: 100%;
+    opacity: 40%;
     position: fixed;
     align-items: center;
     justify-content: center;
+    top: 0;
+    left: 0;
     
 }
 
@@ -79,6 +81,7 @@
 }
 label{
     display: block;
+    margin-top: 1rem;
 }
 
 .container button{
