@@ -37,10 +37,10 @@
 }
 .background-form{
     background-color: black;
-    z-index: 5;
+    z-index: 10;
     height: 100%;
     width: 100vw;
-    opacity: 25%;
+    opacity: 100%;
     position: fixed;
     align-items: center;
     justify-content: center;
