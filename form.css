@@ -74,3 +74,10 @@ input,textarea{
 textarea{
     resize: none;
 }
+
+@media  (max-width : 600px){
+    .horizontal figure img{
+        display: none;
+    }
+    
+}
